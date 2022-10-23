@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 300px auto;
+    gap: 20px; 
+    font-family: sans-serif;
+}
+
+main, section {
+    border: 5px;
+    border-color: red;
+    border-style: groove;
+    border-radius: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
